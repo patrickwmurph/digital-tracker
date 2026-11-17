@@ -83,6 +83,9 @@ plugins:
     order: 30
   - source: "@quartz-community/table-of-contents"
     enabled: true
+    options:
+      layout: modern
+      maxDepth: 2
     order: 50
     layout:
       position: right
@@ -153,6 +156,13 @@ plugins:
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    options:
+      localGraph:
+        focusOnHover: false
+        opacityScale: 1.5
+      globalGraph:
+        focusOnHover: false
+        opacityScale: 1.5
     layout:
       position: right
       priority: 10

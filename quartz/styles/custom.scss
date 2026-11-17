@@ -1,3 +1,17 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+/* Keep the Table of Contents permanently expanded */
+
+.toc button.toc-header {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Hide the collapse arrow */
+.toc button.toc-header .fold {
+  display: none;
+}
+
+

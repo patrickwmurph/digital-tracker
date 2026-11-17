@@ -1,0 +1,13 @@
+
+/* Preserve the TOC header when collapsed */
+
+.toc:has(button.toc-header.collapsed) {
+  flex: 0 0 auto;
+  min-height: 2rem;
+}
+
+.toc button.toc-header {
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+
